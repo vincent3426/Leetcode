@@ -17,11 +17,11 @@ class Solution(object):
     #                 return [i + 1, i + j + 2]
 
     # 5920ms
-    def twoSum(self, nums, target):
-        for i in range(len(nums)):
-            for j in range(i+1, len(nums)):
-                if target == nums[i] + nums[j]:
-                    return [i+1, j+1]
+    # def twoSum(self, nums, target):
+    #     for i in range(len(nums)):
+    #         for j in range(i+1, len(nums)):
+    #             if target == nums[i] + nums[j]:
+    #                 return [i+1, j+1]
     
     # UPDATE (2016/2/13):
     # The return format had been changed to zero-based indices. Please read the above updated description carefully.
