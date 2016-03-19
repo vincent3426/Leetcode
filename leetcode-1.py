@@ -25,7 +25,7 @@ class Solution(object):
     
     # UPDATE (2016/2/13):
     # The return format had been changed to zero-based indices. Please read the above updated description carefully.
-    # 44ms
+    # 44ms 74.76%
     # O(NlogN)
     def twoSum(self, nums, target):
         nums_tmp = sorted(nums)
