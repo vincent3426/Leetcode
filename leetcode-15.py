@@ -16,6 +16,7 @@ class Solution(object):
     #     return [list(q) for q in set(tuple(p) for p in tmp)]
     
     # O(nlogn)
+    # 424ms 19.9%
     def threeSum(self, nums):
         """
         :type nums: List[int]
