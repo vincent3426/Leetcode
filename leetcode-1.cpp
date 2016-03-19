@@ -1,6 +1,6 @@
 class Solution {
 public:
-    # 30ms 27.64%
+    // 30ms 27.64%
     vector<int> twoSum(vector<int> &numbers, int target) {
         vector<int> ret(2, -1);
 	map<int, int> m;    //value->index map
